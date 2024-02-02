@@ -1,0 +1,44 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+env
+node_modules
+appLogs
+testLogs
+ecosystem.config.js
+coverage
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.husky
+.eslintcache
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+../.vscode/
+.vscode/
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+logfile.txt
+.scannerwork/
+logfiletest.txt
